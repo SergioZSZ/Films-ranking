@@ -1,0 +1,6 @@
+# Ignorar los archivos descargados comprimidos
+*.tsv.gz
+
+# Ignorar el dataset completo (pesa 185 MB y GitHub lo rechaza)
+imdb_completo.tsv
+**/imdb_completo.tsv
