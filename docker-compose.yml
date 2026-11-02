@@ -1,24 +1,24 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: api-proxy-postgres
+    env_file:
+      - .env
     environment:
-      POSTGRES_DB: ${DATABASE_NAME:-films_rating}
-      POSTGRES_USER: ${DATABASE_USER:-postgresuser}
-      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:-pwd123}
+      POSTGRES_DB: ${POSTGRES_DB:-films_rating}
+      POSTGRES_USER: ${POSTGRES_USER:-postgresuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pwd123}
     ports:
       - "127.0.0.1:5433:5432"
     volumes:
-      - ./postgres-data:/var/lib/postgresql/data
+      - ./src/db/postgres-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DATABASE_USER} -d ${DATABASE_NAME}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 5s
       timeout: 5s
       retries: 10
 
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: api-proxy-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@example.com}
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-admin}
@@ -31,5 +31,4 @@ services:
         condition: service_healthy
 
 volumes:
-  postgres-data:
   pgadmin-data:

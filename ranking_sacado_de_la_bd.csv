@@ -1,0 +1,101 @@
+"rank_position","movie_title","imdb_id","rt_id","imdb_bayesian_rating","critic_score","final_score"
+1,"The Godfather","tt0068646","m/godfather",9.2,9.388694922737306,9.24637186256781
+2,"The Godfather Part II","tt0071562","m/godfather_part_ii",9.0,9.41416345177665,9.099097408906882
+3,"The Shawshank Redemption","tt0111161","m/shawshank_redemption",9.3,8.441974515235456,9.098429154013015
+4,"Schindler's List","tt0108052","m/schindlers_list",9.0,9.104324838012959,9.02573840142096
+5,"12 Angry Men","tt0050083","m/1000013-12_angry_men",8.99,9.131774517374517,9.020684902506964
+6,"The Dark Knight","tt0468569","m/the_dark_knight",9.1,8.747663992537312,9.000487769320843
+7,"The Chaos Class","tt0252487",NULL,8.99,NULL,8.99
+8,"You Can See Everything","tt45368240",NULL,8.96,NULL,8.96
+9,"The Lord of the Rings: The Return of the King","tt0167260","m/the_lord_of_the_rings_the_return_of_the_king",9.0,8.835858409785931,8.954254857954545
+10,"Om Ka Hari","tt36853476",NULL,8.89,NULL,8.89
+11,"Pulp Fiction","tt0110912","m/pulp_fiction",8.8,8.975828571428572,8.843808135593221
+12,"Ramayana: The Legend of Prince Rama","tt0259534",NULL,8.83,NULL,8.83
+13,"The Good, the Bad and the Ugly","tt0060196","m/the_good_the_bad_and_the_ugly",8.79,8.935283714285713,8.823899533333332
+14,"GoodFellas","tt0099685","m/1032176-goodfellas",8.7,9.104105882352941,8.800184583333333
+15,"The Lord of the Rings: The Fellowship of the Ring","tt0120737","m/the_lord_of_the_rings_the_fellowship_of_the_ring",8.9,8.510800759013284,8.793358058925477
+16,"Attack on Titan: The Last Attack","tt33175825",NULL,8.78,NULL,8.78
+17,"David Attenborough: A Life on Our Planet","tt11989890",NULL,8.77,NULL,8.77
+18,"Star Wars: Episode V - The Empire Strikes Back","tt0080684","m/empire_strikes_back",8.7,8.945330508474576,8.760732167832167
+19,"Punjab '95","tt28089784",NULL,8.76,NULL,8.76
+20,"The Lord of the Rings: The Two Towers","tt0167261","m/the_lord_of_the_rings_the_two_towers",8.8,8.587357284768212,8.741084311926606
+21,"Tosun Pasha","tt0253828",NULL,8.72,NULL,8.72
+22,"O.J.: Made in America","tt5275892",NULL,8.71,NULL,8.71
+23,"One Flew Over the Cuckoo's Nest","tt0073486","m/one_flew_over_the_cuckoos_nest",8.6,8.9746336,8.688729010526316
+24,"Modern Times","tt0027977","m/modern_times",8.49,9.330237192982457,8.676598129870131
+25,"It's a Wonderful Life","tt0038650","m/its_a_wonderful_life",8.59,8.949495115681234,8.675793619631902
+26,"Casablanca","tt0034583","m/1003707-casablanca",8.49,9.253942723004695,8.675611939163499
+27,"Parasite","tt6751668","m/parasite_2019",8.5,9.11086304241833,8.67473920502092
+28,"City Lights","tt0021749","m/city_lights",8.48,9.384889430894308,8.673008208092485
+29,"12th Fail","tt23849204",NULL,8.67,NULL,8.67
+30,"Psycho","tt0054215","m/psycho",8.49,9.203084388185655,8.666656097560976
+31,"Inception","tt1375666","m/inception",8.8,8.289886352941178,8.6554678
+32,"Spirited Away","tt0245429","m/spirited_away",8.6,8.785949545454544,8.650092530612245
+33,"Mirror Game","tt5354160",NULL,8.65,NULL,8.65
+34,"Grave of the Fireflies","tt0095327","m/grave_of_the_fireflies",8.49,9.272310416666668,8.644318767123288
+35,"BLEACH: Thousand-Year Blood War - The Calamity","tt43383343",NULL,8.64,NULL,8.64
+36,"Saving Private Ryan","tt0120815","m/saving_private_ryan",8.6,8.748850232558139,8.63866110067114
+37,"The Silence of the Lambs","tt0102926","m/silence_of_the_lambs",8.6,8.732476231263382,8.632733544973544
+38,"Kill Bill: The Whole Bloody Affair","tt6019206",NULL,8.63,NULL,8.63
+39,"Star Wars: Episode IV - A New Hope","tt0076759","m/star_wars",8.6,8.694258823529411,8.624106902654868
+40,"Once Upon a Time in the West","tt0064116","m/once_upon_a_time_in_the_west",8.49,9.064319999999999,8.619753777777778
+41,"Sunset Boulevard","tt0043014","m/sunset_boulevard",8.38,9.426298452012384,8.619683971631206
+42,"Rear Window","tt0047396","m/1017289-rear_window",8.39,9.36095411764706,8.615084818181819
+43,"Seven","tt0114369",NULL,8.6,NULL,8.6
+44,"The Foster Brothers","tt0253779",NULL,8.6,NULL,8.6
+45,"Stop Making Sense","tt0088178","m/stop_making_sense",8.52,8.884391578947367,8.591621793103448
+46,"Seven Samurai","tt0047478",NULL,8.59,NULL,8.59
+47,"Jai Bhim","tt15097216",NULL,8.58,NULL,8.58
+48,"Raiders of the Lost Ark","tt0082971","m/raiders_of_the_lost_ark",8.4,9.146870526315789,8.57738175
+49,"City of God","tt0317248","m/city_of_god",8.59,8.526662532299742,8.573172814645309
+50,"Soorarai Pottru","tt10189514",NULL,8.57,NULL,8.57
+51,"Back to the Future","tt0088763","m/back_to_the_future",8.5,8.768641791044777,8.564538247011953
+52,"Singin' in the Rain","tt0045152","m/singin_in_the_rain",8.29,9.507706756756756,8.563061515151514
+53,"The Marathon Family","tt0084302",NULL,8.56,NULL,8.56
+54,"Unpaarvayil","tt15176374",NULL,8.56,NULL,8.56
+55,"Alien","tt0078748","m/alien",8.4,9.02102886597938,8.558990674486804
+56,"Apocalypse Now","tt0078788","m/apocalypse_now",8.39,9.051051918735892,8.551793370165747
+57,"Terminator 2: Judgment Day","tt0103064","m/terminator_2_judgment_day",8.6,8.394935433070865,8.551270519750519
+58,"The Message","tt0075143",NULL,8.54,NULL,8.54
+59,"Fight Club","tt0137523","m/fight_club",8.8,7.790169465648857,8.53124374717833
+60,"20 Days in Mariupol","tt24082438",NULL,8.53,NULL,8.53
+61,"Rocketry: The Nambi Effect","tt9263550",NULL,8.53,NULL,8.53
+62,"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb","tt0057012","m/dr_strangelove",8.29,9.276586416861827,8.529813510436432
+63,"M","tt0022100","m/1012928-m",8.28,9.383725925925926,8.521626486486486
+64,"The Matrix","tt0133093","m/matrix",8.7,8.012995204513398,8.519374635352285
+65,"Citizen Kane","tt0033467","m/citizen_kane",8.19,9.53947268408551,8.517137044145873
+66,"Paths of Glory","tt0050825","m/paths_of_glory",8.38,8.983667368421052,8.514061194805196
+67,"Lawrence of Arabia","tt0056172","m/lawrence_of_arabia",8.29,9.21874004914005,8.51366698224852
+68,"Harakiri","tt0056058","m/harakiri",8.55,8.08209142857143,8.513607111111112
+69,"777 Charlie","tt7466810",NULL,8.51,NULL,8.51
+70,"The Chaos Class Is Waking Up","tt0252490",NULL,8.51,NULL,8.51
+71,"2001: A Space Odyssey","tt0062622","m/2001_a_space_odyssey",8.3,9.135542632612964,8.509503054187192
+72,"Whiplash","tt2582802","m/whiplash_2014",8.5,8.523506086956523,8.506575351351351
+73,"Aliens","tt0090605","m/1000617-aliens",8.4,8.8409687150838,8.503406200873362
+74,"The Lion King","tt0110357","m/the_lion_king",8.5,8.504997716150083,8.501289032258065
+75,"The Pianist","tt0253474","m/pianist",8.5,8.504311366245695,8.501160205973223
+76,"Toy Story","tt0114709","m/toy_story",8.3,9.122109090909092,8.500010283553875
+77,"WALL·E","tt0910970","m/wall_e",8.4,8.746706764466177,8.49617389600603
+78,"Spider-Man: Across the Spider-Verse","tt9362722",NULL,8.49,NULL,8.49
+79,"Saban, Son of Saban","tt0253614",NULL,8.49,NULL,8.49
+80,"#Home","tt10534500",NULL,8.49,NULL,8.49
+81,"Spider-Man: Into the Spider-Verse","tt4633694","m/spider_man_into_the_spider_verse",8.39,8.712686796657382,8.481697540897098
+82,"Demon Slayer: Kimetsu no Yaiba - Mt. Natagumo Arc","tt14888874",NULL,8.48,NULL,8.48
+83,"Toy Story 3","tt0435761","m/toy_story_3",8.3,8.927414647501712,8.476166457399104
+84,"Amadeus","tt0086879","m/amadeus",8.39,8.727420390455531,8.473182245989305
+85,"Up","tt1049413","m/up",8.3,8.913057487579843,8.471729224652087
+86,"Who's Singin' Over There?","tt0076276",NULL,8.47,NULL,8.47
+87,"Kireedam","tt0237376",NULL,8.47,NULL,8.47
+88,"Solo Leveling: ReAwakening","tt33428606",NULL,8.46,NULL,8.46
+89,"Forrest Gump","tt0109830","m/forrest_gump",8.8,7.405339166666667,8.453739379310345
+90,"Sita Ramam","tt20850406",NULL,8.45,NULL,8.45
+91,"Anbe Sivam","tt0367495",NULL,8.45,NULL,8.45
+92,"Nayakan","tt0093603",NULL,8.45,NULL,8.45
+93,"The Departed","tt0407887","m/departed",8.5,8.319143435858964,8.449529281228193
+94,"The Lives of Others","tt0405094","m/the_lives_of_others",8.39,8.596304461942255,8.444711368909513
+95,"Double Indemnity","tt0036775","m/double_indemnity",8.28,8.976777181208055,8.436512261306532
+96,"Life Is Beautiful","tt0118799","m/1084398-life_is_beautiful",8.59,7.951977560975609,8.436124
+97,"Taxi Driver","tt0075314","m/taxi_driver",8.2,9.15597892271663,8.432373624288426
+98,"C/o Kancharapalem","tt7391996",NULL,8.43,NULL,8.43
+99,"Baththa","tt44090278",NULL,8.43,NULL,8.43
+100,"A Separation","tt1832382","m/a_separation_2011",8.29,8.807169711538464,8.42850381974249

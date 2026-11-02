@@ -1,0 +1,26 @@
+[project]
+name = "films-ranking"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "SergioZSZ",email = "s.zaballosh@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas (>=3.1.0,<4.0.0)",
+    "alembic (>=1.20.1,<2.0.0)",
+    "numpy (>=2.5.4,<3.0.0)",
+    "scikit-learn (>=1.9.1,<2.0.0)",
+    "datasets (>=5.1.0,<6.0.0)",
+    "transformers (>=5.20.2,<6.0.0)",
+    "accelerate (>=1.15.0,<2.0.0)",
+    "psycopg[binary] (>=3.2,<4.0)",
+    "streamlit (>=1.66.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

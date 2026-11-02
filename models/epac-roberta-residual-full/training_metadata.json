@@ -1,0 +1,33 @@
+{
+  "model": "FacebookAI/roberta-base",
+  "objective": "normalized_score - mean(review_type)",
+  "input_template": "Sentiment classification: {review_type}. Review: {review_content}",
+  "postprocessing": "clip(mean(review_type) + predicted_residual, 0, 10)",
+  "csv_source": "/kaggle/input/datasets/sergiozaballos/rt-train/rotten_tomatoes_critic_reviews_clean.csv",
+  "train_examples": 677353,
+  "counts": {
+    "Fresh": 431920,
+    "Rotten": 245433
+  },
+  "means": {
+    "Fresh": 7.711638665030562,
+    "Rotten": 4.4394396315898845
+  },
+  "seed": 42,
+  "max_length": 256,
+  "epochs": 2.0,
+  "batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "no_validation_or_prediction": true,
+  "training_metrics": {
+    "train_runtime": 17640.101,
+    "train_samples_per_second": 76.797,
+    "train_steps_per_second": 2.4,
+    "total_flos": 4.202340132261515e+16,
+    "train_loss": 5.180020261693884,
+    "epoch": 2.0
+  },
+  "status": "completed"
+}

@@ -5,5 +5,28 @@
 imdb_completo.tsv
 **/imdb_completo.tsv
 
+original_datasets
+processed_datasets
+.venv
+.env
+postgres-data
+
+# Cachés locales de Python
+__pycache__/
+*.py[cod]
+
 # Grafo local regenerable de Graphify
 graphify-out/
+
+models/epac-roberta-residual
+models/epac-roberta-regression
+
+# Modelo final: conservar solo los archivos necesarios para inferencia.
+# Los pesos model.safetensors requieren Git LFS para publicarse en GitHub.
+/models/epac-roberta-residual-full/*
+!/models/epac-roberta-residual-full/config.json
+!/models/epac-roberta-residual-full/model.safetensors
+!/models/epac-roberta-residual-full/tokenizer.json
+!/models/epac-roberta-residual-full/tokenizer_config.json
+!/models/epac-roberta-residual-full/training_metadata.json
+
