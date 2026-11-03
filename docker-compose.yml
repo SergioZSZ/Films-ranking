@@ -30,5 +30,17 @@ services:
       postgres:
         condition: service_healthy
 
+  visualization:
+    build:
+      context: ./src/visualization
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: ${DATABASE_URL_DOCKER:-postgresql+psycopg://${POSTGRES_USER:-postgresuser}:${POSTGRES_PASSWORD:-pwd123}@postgres:5432/${POSTGRES_DB:-films_rating}}
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
 volumes:
   pgadmin-data:

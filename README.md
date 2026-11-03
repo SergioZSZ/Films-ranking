@@ -402,12 +402,24 @@ ORDER BY rank_position
 LIMIT 100;
 ```
 
-### 8.4 Visualización prevista: Streamlit
+### 8.4 Visualización: Streamlit
 
-La siguiente fase será una página local con ranking, búsqueda por título,
-filtros y comparación de notas. Streamlit ya figura en las dependencias, pero
-la aplicación todavía no está implementada. Se prevé servirla en
-**http://localhost:8501** con este comando, una vez creado el archivo:
+La aplicación muestra el ranking, búsqueda por título, filtros RT y las notas
+de cada fuente. Con las migraciones aplicadas y el ranking cargado, arráncala
+en Docker y abre **http://localhost:8501**:
+
+```powershell
+docker compose up -d --build visualization
+```
+
+Compose construye [`src/visualization/Dockerfile`](src/visualization/Dockerfile)
+con las dependencias de `requirements.txt` y conecta a `postgres:5432` usando
+las variables `POSTGRES_*` del `.env`. Si necesitas otra conexión, define
+`DATABASE_URL_DOCKER` con la URL completa y la contraseña codificada para URL.
+El arranque inicia PostgreSQL si hace falta, pero no ejecuta migraciones ni loaders.
+Para detener solo la visualización: `docker compose stop visualization`.
+
+También puedes ejecutarla directamente en tu equipo, usando `DATABASE_URL`:
 
 ```powershell
 dotenvx run -- poetry run streamlit run src/visualization/app.py
